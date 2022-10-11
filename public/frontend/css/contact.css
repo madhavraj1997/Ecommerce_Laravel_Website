@@ -1,0 +1,82 @@
+.contact{
+    background: linear-gradient(to top, #663300 0%, #0066ff 100%);
+}
+.card{
+    
+    border:none;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    -webkit-box-shadow: inset -1px 3px 8px 5px #1F87FF, 2px 5px 16px 0px #0B325E, 5px 5px 15px 5px rgba(0,0,0,0); 
+    box-shadow: inset -1px 3px 8px 5px #1F87FF, 2px 5px 16px 0px #0B325E, 5px 5px 15px 5px rgba(0,0,0,0);
+   }
+
+h3{
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+
+
+.group{
+    background: linear-gradient(to bottom, #33ccff 0%, #ffffff 100%);
+    border: none;
+    
+    float: center;
+}
+
+
+.items{
+    width:40%;
+    border-radius: 50px;
+}
+.rest{
+    margin-top: 2rem;
+}
+.rest input{
+    width: 220px;
+    margin-left: 2rem;
+}
+.rest textarea{
+    width: 400px;
+    margin-left: 2rem;
+}
+.form-label{
+    margin-left: 2rem;
+}
+
+.btns{
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+
+.detail{
+    color: white;
+    margin-bottom: 5rem;
+    text-align: center;
+    line-height: 3rem;
+    position: relative;
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%, -50%)
+}
+
+.adres{
+    
+    font-size: 2.8rem;
+    font-weight: 500;
+}
+.adres p{
+    font-size: 1.4rem;
+}
+.phn{
+    
+    font-size: 1rem;
+    font-weight: 500;
+}
+.mal{
+    
+    font-size: 1rem;
+    font-weight: 500;
+}

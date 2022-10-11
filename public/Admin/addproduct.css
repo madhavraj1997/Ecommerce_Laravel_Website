@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Mingzat&display=swap');
+
+.add-card{
+    margin: 2rem;
+    width: 700px;
+    line-height: 2rem;
+    
+}
+.form-select{
+    display: block;
+    width: 100%;
+    padding:.375rem 2.25rem .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    color: #212529;
+    background-color: #ffff;
+    background-repeat: no-repeat;
+    background-position: right .75rem center;
+    background-size: 12px 16px;
+    border: 1px solid;
+    border-radius: .25rem;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}

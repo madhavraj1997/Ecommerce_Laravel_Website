@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Mingzat&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:'Opens sans', sans-serif;
+    list-style-type: none;
+   
+}
+.sidebar{
+    width: 345px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    color: white;
+    background-color: black;
+}
+.sidebar-wrapper li{        
+    width: 100%;
+    margin-bottom: 1.5rem;
+    padding-left: 2rem;
+
+
+}
+.sidebar-wrapper a{
+    display: block;
+    color: #fff;
+    font-size: 1.1rem;
+    text-decoration: none;
+    
+}
+.sidebar-wrapper a span:first-child{
+    font-size: 1.5rem;
+    padding-right: 1rem;
+}
+.sidebar-brand{
+    height: 90px;
+    padding-left: 1rem 0rem 1rem 2rem;
+}
+.main-content{
+    margin-left: 345px;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+    box-shadow: 4px 4px 10px rgba(0,0,0,0.2);
+}
+
+
+.search-wrapper{
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    overflow-x:hidden ;
+
+}
+.search-wrapper span{
+    display: inline-block;
+    padding: 0rem 1rem;
+    font-size: 1.5rem;
+}
+.search-wrapper input{
+    height: 100%;
+    padding: 0.5rem;
+    border: none;
+    outline: none;
+}
+.user-wrapper{
+    display: flex;
+    align-items: center;
+    margin-right: 0.5rem;
+}
+.user-wrapper span{
+    margin-right: 0.5rem;
+}
+
+.user-wrapper h6{
+    padding-top: .4rem;
+    font-size: 1rem;
+    
+}
+.user-wrapper a {
+    text-decoration: none;
+
+}
+.active, .nav-item :hover{
+    background-color: purple;
+    border-radius: 10px;
+   
+
+}
+
+
+

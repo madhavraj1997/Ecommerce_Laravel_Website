@@ -1,0 +1,33 @@
+.imgs{
+    position:relative
+}
+.magnifier-lens{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-color: #ff980030;
+    border: .1px solid blue;
+    border-radius: 100px;
+    opacity: 0;
+}
+.magnifier-lens.active{
+    opacity: 1;
+}
+.all{
+    position:relative;
+ } 
+.magnified-img{
+    position: absolute;
+    top: 0;
+
+    width: 80%;
+    height: 120%;
+    border: 2px solid blue;
+    transform: scale(0.5);
+    opacity: 0;
+    transition: opacity .5s, transform .5s;
+}
+.magnified-img.active{
+   opacity: 1;
+   transform:scale(1);
+}

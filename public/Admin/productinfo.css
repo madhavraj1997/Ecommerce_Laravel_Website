@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Mingzat&display=swap');
+
+.card{
+    
+    margin-top: 1rem;
+
+}
+.card-header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.card-header button{
+    margin-left: 30rem;
+
+}
+.card-header button a{
+    color: #fff;
+    text-decoration: none;
+}
